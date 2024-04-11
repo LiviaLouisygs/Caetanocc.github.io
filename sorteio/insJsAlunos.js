@@ -150,3 +150,12 @@ function LIVIA() {
 }
 
 
+function GABRIEL_ARAUJO() {
+    linkGit = document.querySelector("#GABRIEL_ARAUJO")
+    linkGit.innerHTML = '<a href=" https://gabrielaraujo.tech/">https://gabrielaraujo.tech</a>';
+}
+
+function BRENO() {
+  linkGit = document.querySelector("#BRENO")
+  linkGit.innerText = "https://github.com/BrenoMeneses"
+}
