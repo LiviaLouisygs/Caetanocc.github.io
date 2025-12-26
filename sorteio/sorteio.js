@@ -1,42 +1,36 @@
+
 const alunos = 
 [
- 'ALUNO'   
-,'AGEU' 
-,'ARTHUR'
-,'BRENO'
-,'CAIO_DANIEL'
-,'CAIO_ROSA'
-,'CARLOS'
-,'DANIEL'
-,'DIMITRY'
-,'ENZO'
-,'ERIC'
-,'FERNANDO'
-,'GABRIEL_ARAUJO'
-,'GABRIEL_RODRIGUES'
-,'GLEYCI'
-,'GUILHERME'
-,'GUSTAVO_GONCALVES'
-,'GUSTAVO_SOARES'
-,'HUGO'
-,'JHOEL'
-,'JOAO_FELIPE'
-,'JOAO_MIGUEL'
-,'JULIO'
-,'KAUE'
-,'KAYQUE'
-,'LIVIA'
-,'LUCAS_BARROS'
-,'LUCAS_GOMES'
-,'LUCAS_RAFAEL'
-,'LUIZ'
-,'MATHEUS'
-,'NICOLAS'
-,'RICARDO'
-,'VINICIUS_FERNANDES'
-,'VINICIUS_TAVARES'
-]
-
+  'ALUNO',   
+  "ANGELO",
+  "ARTHUR",
+  "CAIO",
+  "CAIQUE",
+  "EDUARDO",
+  "ENZO",
+  "FERNANDO",
+  "FRANCISCO",
+  "GABRIEL",
+  "GUILHERME",
+  "GUSTAVO",
+  "INGRID",
+  "IVY",
+  "JHONNY",
+  "JONATHAN",
+  "JONATHAS",
+  "JULIO",
+  "KAUE_BUENO",
+  "KAUE_DAVI",
+  "LUCAS_HENRIQUE",
+  "LUCAS_TEIXEIRA",
+  "MARCIANO",
+  "MATHEUS",
+  "NICOLAS",
+  "OLIVER",
+  "RODRIGO",
+  "ROGER",
+  "VITOR"
+];
 // alunos.sort()
 
 let text = '<table id="t01"> ';
@@ -114,7 +108,8 @@ function mostrarSorteado(sorteado) {
     x.innerHTML = alunos[sorteado]
     x.className = "show";
     setTimeout(function() { x.className = x.className.replace("show", ""); }, 3000);
-}    
+} 
+   
 
 
-
+//oi
